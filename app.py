@@ -1,0 +1,81 @@
+# Basic boolean example
+the_world_is_flat = True
+if the_world_is_flat:
+    print("Be careful not to fall off!")
+
+# Arithmetic operations
+print("2 + 2 =", 2 + 2)
+print("50 - 5*6 =", 50 - 5*6)
+print("(50 - 5*6) / 4 =", (50 - 5*6) / 4)
+print("8 / 5 =", 8 / 5)
+print("17 / 3 =", 17 / 3)
+print("17 // 3 =", 17 // 3)  # floor division
+print("17 % 3 =", 17 % 3)
+print("5 * 3 + 2 =", 5 * 3 + 2)
+print("5 ** 2 =", 5 ** 2)
+print("2 ** 7 =", 2 ** 7)
+
+# Variables and expressions
+width = 20
+height = 5 * 9
+print("width * height =", width * height)
+print("4 * 3.75 - 1 =", 4 * 3.75 - 1)
+
+tax = 12.5 / 100
+price = 100.50
+print("price * tax =", price * tax)
+total_price = price + (price * tax)
+print("Total price =", round(total_price, 2))
+
+# Strings
+print('spam eggs')
+print("Paris rabbit got your back :)! Yay!")
+print('1975')
+print("doesn't")
+s = 'First line.\nSecond line.'
+print(s)
+
+# Paths
+print('C:\\some\\name')  # double backslashes
+print(r'C:\some\name')   # raw string
+print("""\
+Evelyn: beautiful
+-l                 Lunyolo
+-k                  Kirabo
+""")
+
+# String multiplication and concatenation
+print(3 * 'un' + 'ium')
+print('Py' 'thon')
+
+text = ('Evelyn is going to Paris '
+        'Europe to be specific.')
+print(text)
+
+prefix = 'Py'
+print(prefix + 'thon')
+
+word = 'Python'
+print(word[0])
+print(word[5])
+print(word[2:5])
+print(word[0:2])
+
+# Lists
+square = [1, 2, 3, 4, 5, 12, 100]
+print("square list:", square)
+print("First element:", square[0])
+print("Last element:", square[-1])
+print("Last three elements:", square[-3:])
+
+cubes = [1, 8, 27, 64, 125]
+print("cubes list:", cubes)
+cubes.append(216)
+print("After appending 216:", cubes)
+
+# Fibonacci sequence
+a, b = 0, 1
+while a < 10:
+    print(a, end=' ')
+    a, b = b, a+b
+print()
