@@ -22,4 +22,4 @@ It allows you to **add, update, delete, and manage tasks** directly from the ter
 
 1. Clone the repository:
 
-git clone https://github.com/kirabo22/project-python
+https://github.com/kirabo22/project-python.git
