@@ -34,8 +34,9 @@ def add_task(description):
     task = {
         "id": new_id,
         "description": description,
-        "done": False,
+        "status": "todo",
         "createdAt": datetime.now().isoformat(),
+        "updatedAt": datetime.now().isoformat()
         
     }
 
@@ -52,7 +53,7 @@ def list_tasks():
         return
     
     for task in tasks:
-        status = "✓" if task["done"] else "✗"
+        status = "✓" if task.get("status") == "done" else "✗"
         print(f'{task["id"]}. [{status}] {task["description"]}')
 
 # Mark a task as done
@@ -61,7 +62,7 @@ def mark_done(task_id):
 
     for task in tasks:
         if task["id"] == task_id:
-            task["done"] = True
+            task["status"] = "done"
             save_tasks(tasks)
             print("Task marked as done.")
             return
@@ -94,7 +95,16 @@ def update_task(task_id, new_description):
     else:
         print("Task not found.")
 
-
+def mark_task(task_id, status):
+    tasks = load_tasks()
+    for task in tasks:
+        if task["id"] == task_id:
+            task["status"] = status
+            task["updatedAt"] = datetime.now().isoformat()
+            save_tasks(tasks)
+            print(f"Task {task_id} marked as {status}.")
+            return
+    print("Task not found.")
 
 def show_help():
     print("""
