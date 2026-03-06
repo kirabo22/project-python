@@ -1,4 +1,6 @@
-This is my task tracker app.
+This is my task tracker app from
+https://roadmap.sh/projects/task-tracker 
+by https://roadmap.sh/
  Task CLI Project
 
 This is a **Command-Line Interface (CLI) Task Tracker** built with Python.  
