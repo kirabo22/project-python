@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "description": "Play violin",
+        "status": "in-progress",
+        "createdAt": "2026-03-06T09:41:05.544393",
+        "updatedAt": "2026-03-06T09:45:41.170246"
+    },
+    {
+        "id": 2,
+        "description": "Do homework",
+        "status": "in-progress",
+        "createdAt": "2026-03-06T09:41:15.212747",
+        "updatedAt": "2026-03-06T09:45:57.365657"
+    },
+    {
+        "id": 3,
+        "description": "Do bible plan",
+        "status": "done",
+        "createdAt": "2026-03-06T09:41:38.165298",
+        "updatedAt": "2026-03-06T09:46:09.544011"
+    },
+    {
+        "id": 4,
+        "description": "Learn Advanced Python",
+        "status": "done",
+        "createdAt": "2026-03-06T09:42:02.919897",
+        "updatedAt": "2026-03-06T09:48:09.590505"
+    },
+    {
+        "id": 5,
+        "description": "workout",
+        "status": "done",
+        "createdAt": "2026-03-06T09:43:14.116408",
+        "updatedAt": "2026-03-06T09:46:21.957808"
+    },
+    {
+        "id": 6,
+        "description": "Sleep by 11 pm",
+        "status": "done",
+        "createdAt": "2026-03-06T09:43:33.905071",
+        "updatedAt": "2026-03-06T09:46:26.180890"
+    },
+    {
+        "id": 7,
+        "description": "Drive Three times a week",
+        "status": "done",
+        "createdAt": "2026-03-06T09:44:05.161118",
+        "updatedAt": "2026-03-06T09:46:30.015508"
+    },
+    {
+        "id": 8,
+        "description": "Stop doom scrolling",
+        "status": "done",
+        "createdAt": "2026-03-06T09:44:27.071657",
+        "updatedAt": "2026-03-06T09:46:41.711507"
+    }
+]
